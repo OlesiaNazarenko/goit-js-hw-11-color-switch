@@ -1,0 +1,30 @@
+button[data-action='start'],
+button[data-action='stop'] {
+  display: block;
+  margin: 15% auto 0px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9eefe1 0%, #4830f0 51%, #9eefe1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+button[data-action='stop'] {
+  margin: 20px auto;
+  background-position: right center;
+}
+button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-size: 300% auto;
+}
+button:disabled {
+  background-color: darkgray;
+  background-image: none;
+}
