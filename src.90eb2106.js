@@ -5,4 +5,4 @@ const t=["#FFFFFF","#2196F3","#4CAF50","#FF9800","#009688","#795548"];body=docum
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/switch-theme.js");
 },{"./sass/main.scss":"clu1","./js/switch-theme.js":"pE8F"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.90eb2106.js.map
+//# sourceMappingURL=/goit-js-hw-11-color-switch/src.90eb2106.js.map
